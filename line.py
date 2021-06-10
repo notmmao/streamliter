@@ -4,7 +4,7 @@
 '''
 Author: hufeng.mao@carota.ai
 Date: 2021-06-08 13:53:49
-LastEditTime: 2021-06-08 17:26:29
+LastEditTime: 2021-06-10 11:03:02
 Description: 
 '''
 
@@ -133,7 +133,7 @@ def add_placeHolder():
 with st.echo():
     st.header('This is a header')
     
-    df = pd.read_csv("D:\\BaiduNetdiskDownload\\TQDat\\day\\stk\\600648.csv")
+    df = pd.read_csv("data/600648.csv")
     
     # st.help(df)
     sidebar = st.sidebar
